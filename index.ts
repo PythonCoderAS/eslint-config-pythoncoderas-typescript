@@ -7,7 +7,7 @@ const config: BaseConfig = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "airbnb-typescript/base",
-    "standard-with-typescript",
+    // "standard-with-typescript", -- not avilable for @typescript-eslint/eslint-plugin v5 yet
   ],
   // eslint-plugins
   plugins: ["@typescript-eslint"],

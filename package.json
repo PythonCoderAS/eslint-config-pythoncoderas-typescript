@@ -40,7 +40,6 @@
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-standard-with-typescript": "github:standard/eslint-config-standard-with-typescript",
     "eslint-config-xo-typescript": "^0.51.1"
   }
 }
