@@ -7,6 +7,7 @@ const config: BaseConfig = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "airbnb-typescript/base",
+    "plugin:import/typescript",
     // "standard-with-typescript", -- not avilable for @typescript-eslint/eslint-plugin v5 yet
   ],
   // eslint-plugins
@@ -15,9 +16,22 @@ const config: BaseConfig = {
   // Enabling/disabling/changing level of rules
   rules: {
     "@typescript-eslint/no-non-null-assertion": "off",
+    "no-negated-condition": "off",
+    "import/no-unresolved": "error",
   },
   parserOptions: {
     project: "./tsconfig.json",
+  },
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"],
+    },
+    "import/resolver": {
+      typescript: {
+        // Always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        alwaysTryTypes: true,
+      },
+    },
   },
 };
 
