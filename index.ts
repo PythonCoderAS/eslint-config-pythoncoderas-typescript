@@ -16,6 +16,7 @@ const config: BaseConfig = {
   // Enabling/disabling/changing level of rules
   rules: {
     "@typescript-eslint/no-non-null-assertion": "off",
+    "import/extensions": "off",
     "no-negated-condition": "off",
     "import/no-unresolved": "error",
   },
