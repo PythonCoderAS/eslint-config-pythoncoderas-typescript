@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check index.js && eslint index.js",
-    "lint-fix": "prettier --write index.js && eslint --fix index.js"
+    "lint-fix": "prettier --write index.js && eslint --fix index.js",
+    "build": "tsc -b"
   },
   "repository": {
     "type": "git",
