@@ -14,3 +14,17 @@ Then, in your .eslintrc file, add the following line:
   ]
 }
 ```
+
+## Compatibility with eslint-config-pythoncoderas
+
+In order to get prettier rules to apply, `eslint-config-pythoncoderas` needs to be extended **after**
+`eslint-config-pythoncoderas-typescript`. An example .eslintrc file would look like this:
+
+```json
+{
+  "extends": [
+    "pythoncoderas-typescript",
+    "pythoncoderas"
+  ]
+}
+```
