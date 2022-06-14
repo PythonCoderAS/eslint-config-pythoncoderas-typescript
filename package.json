@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "prettier --check index.ts && eslint index.ts",
     "lint-fix": "prettier --write index.ts && eslint --fix index.ts",
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
