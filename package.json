@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pythoncoderas-typescript",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "My reusable eslint config for typescript projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
