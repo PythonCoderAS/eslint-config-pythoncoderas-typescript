@@ -1,5 +1,6 @@
 /* eslint-disable import/no-import-module-exports */
 import { Linter } from "eslint";
+
 import BaseConfig = Linter.BaseConfig;
 
 const config: BaseConfig = {
