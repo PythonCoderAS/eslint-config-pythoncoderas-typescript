@@ -12,7 +12,7 @@ const config: BaseConfig = {
     // "standard-with-typescript", -- not avilable for @typescript-eslint/eslint-plugin v5 yet
   ],
   // eslint-plugins
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "deprecation"],
   parser: "@typescript-eslint/parser",
   // Enabling/disabling/changing level of rules
   rules: {
@@ -20,6 +20,7 @@ const config: BaseConfig = {
     "import/extensions": "off",
     "no-negated-condition": "off",
     "import/no-unresolved": "error",
+    "deprecation/deprecation": "error",
   },
   parserOptions: {
     project: "./tsconfig.json",
