@@ -22,7 +22,7 @@ const config: BaseConfig = {
     "import/no-unresolved": "error",
     "deprecation/deprecation": "error",
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error"
+    "@typescript-eslint/no-shadow": "error",
   },
   parserOptions: {
     project: "./tsconfig.json",
