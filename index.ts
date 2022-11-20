@@ -21,8 +21,6 @@ const config: BaseConfig = {
     "no-negated-condition": "off",
     "import/no-unresolved": "error",
     "deprecation/deprecation": "error",
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error",
   },
   parserOptions: {
     project: "./tsconfig.json",
